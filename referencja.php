@@ -5,4 +5,7 @@
      $bar = 'Andy';
      echo $bar;
      echo $foo;
+define("CONSTANT", "Hello World.");
+echo CONSTANT; // outputs "hello world"
+
 
