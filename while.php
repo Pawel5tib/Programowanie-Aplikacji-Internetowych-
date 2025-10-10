@@ -1,7 +1,12 @@
 <?php
-$x = -1;
+$x = 0;
 
-while($x<0 and $x>-6) {
-    echo "The number is $x <br>";
-    $x--;  
+while($x>=0 and $x<=10){
+    if($x % 2==0){
+        
+
+    echo "The number is : $x <br>";
+    
+    }
+    $x++;
 }
